@@ -1,0 +1,22 @@
+USE [Test_Database]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Test_PDF](
+	[ID] [nvarchar](4) NULL,
+	[Field1] [nvarchar](50) NULL,
+	[Field_data1] [nvarchar](50) NULL,
+	[Field2] [nvarchar](50) NULL,
+	[Field_data2] [nvarchar](50) NULL,
+	[Field3] [nvarchar](50) NULL,
+	[Field_data3] [nvarchar](50) NULL,
+	[Timestamp] [smalldatetime] NULL
+) ON [PRIMARY]
+GO
+
+
